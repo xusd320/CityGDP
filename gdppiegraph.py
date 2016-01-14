@@ -28,5 +28,5 @@ def explode(label, target='Shanghai'):
 expl = map(explode,labels)
 colors  = ["pink","coral","yellow","orange"]
 plt.pie(quants, explode=expl, colors=colors, labels=labels, autopct='%1.1f%%',pctdistance=0.8, shadow=True)
-plt.title('Top 10 GDP Countries', bbox={'facecolor':'0.8', 'pad':5})
+plt.title('Top 10 GDP Cities', bbox={'facecolor':'0.8', 'pad':5})
 plt.show()
